@@ -1,0 +1,39 @@
+# Deep Learning
+## Scientific Article Summaries: Guidelines
+
+### Requirements
+1. Find two different scientific articles (papers) and write a summary for each one.
+2. A scientific article means a document **which has undergone and passed peer review**. Such documents can be found most commonly in:
+	* Scientific journals (such as Nature, Science, Journal of Machine Learning Research, etc.)
+	* Conferences / conference proceedings (such as ICML, CVPR, etc.)
+	* Big-shot researchers' websites (such as Microsoft Research, Google Research, etc.)
+	* Sites which offer paper comparisons, like PapersWithCode
+	* Preprint sites, like arXiv. Be careful to choose papers which have passed review. **Preprints** have not yet done so
+3. Blog / Medium posts and the like do not constitute peer-reviewed scientific articles.
+4. The articles you choose must comply to the following guidelines:
+	* At least one article **must** be submitted for publishing after 1 January 2018. Note that the actual publishing date is later than
+	the submission date: usually by several months.
+	* One of the articles must be related to a theoretical aspect of deep learning, that is focused on the machine learning field itself.
+	Examples of such articles include:
+		* Adam: A Method for Stochastic Optimization; Kingma & Ba, 2014;
+		https://arxiv.org/abs/1412.6980
+		* Learning Student-Friendly Teacher Networks for Knowledge Distillation; Park et al., 2021:
+		https://arxiv.org/abs/2102.07650
+	* The other article must be focused to some practical aspect, or application, of machine learning. These papers usually involve novel model
+	architectures for well-known problems.
+	Examples of such articles include:
+		* Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks; Zhu et al., 2017:
+		https://arxiv.org/abs/1703.10593v7
+		* Encoder-decoder with Multi-level Attention for 3D Human Shape and Pose Estimation; Wan et al., 2021:
+		https://arxiv.org/abs/2109.02303v1
+5. For each papers, you must produce, at a minimum, one .ipynb (Jupyter notebook) file. In addition, you're free to add any pictures, diagrams, code,
+and whatever else you might need.
+	* You need to summarize the basic ideas of the paper, such as what problem it solves, where it's applicable, how it's achieved (this is the most important part in a paper), what are the implications, etc.
+	* Include any important mathematical formulas and explain them
+	* If there's code available, at least link it
+	* Try to implement at least a part of what's described in the paper.
+6. Formal requirements for your summary include:
+	* At least 800 words to explain the basic ideas. Still, don't get too wordy: be sure to catch the fundamental ideas. Images, tables, and formulas are worth many thousands of words
+	* A well-structured document, including section headers. Don't forget to add a link to the original paper!
+	* At least one mathematical formula (most papers will have more than one important formula), which should be well-explained (and implemented in code, if possible). LaTeX is your friend :)
+	* Some evidence for experimenting: i.e. you playing around with what you've read / found out. You'll be surprised how much you can learn once you get to actually implement something
