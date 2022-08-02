@@ -1,0 +1,87 @@
+# Deep Learning Papers covered in the course
+## Training and Improving NNs [v]
+	* Dropout: A Simple Way to Prevent Neural Networks from Overfitting, Srivastava et al., 2014 [v]
+	https://jmlr.org/papers/v15/srivastava14a.html
+	* Glorot init: Understanding the difficulty of training deep feedforward neural networks, Glorot & Bengio, 2010 [v]
+	https://proceedings.mlr.press/v9/glorot10a.html
+	* SGD & others, review: An overview of gradient descent optimization algorithms, Ruder, 2017 [v]
+	https://arxiv.org/abs/1609.04747
+	* Adam optimizer: Adam: A Method for Stochastic Optimization, Kingma & Ba, 2014 [v]
+	https://arxiv.org/abs/1412.6980
+	* BatchNorm: Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift, Ioffe & Szegedy, 2015 [v]
+	https://arxiv.org/abs/1502.03167
+	
+## Image-related NNs
+	* Why convolutions work: Visualizing and Understanding Convolutional Networks, Zeiler, 2013 [v]
+	https://arxiv.org/abs/1311.2901
+	* LeNet-5: Gradient-based learning applied to document recognition, Lecun et al., 1998 
+	https://ieeexplore.ieee.org/document/726791
+	http://libgen.rs/scimag/10.1109%2F5.726791
+	* AlexNet: ImageNet Classification with Deep Convolutional Neural Networks, Krizhevsky et al., 2012	[v]
+	https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html
+	* VGG-19: Very Deep Convolutional Networks for Large-Scale Image Recognition, Simonyan & Zisserman, 2014 [v]
+	https://arxiv.org/abs/1409.1556
+	* ResNet: Deep Residual Learning for Image Recognition, He et al., 2015 [v]
+	https://arxiv.org/abs/1512.03385
+	* 1x1 convolutions: Network In Network, Lin et al., 2013 [v]
+	https://arxiv.org/abs/1312.4400
+	* Google Inception, starting with v1: Going Deeper with Convolutions, Szegedy et al., 2014 [v]
+	https://arxiv.org/abs/1409.4842
+	* YOLO papers, starting with v1: You Only Look Once: Unified, Real-Time Object Detection, Redmon et al., 2015 [v]
+	https://arxiv.org/abs/1506.02640
+	* R-CNN papers, starting with v1: Rich feature hierarchies for accurate object detection and semantic segmentation, Girshick et al., 2013 [v]
+	https://arxiv.org/abs/1311.2524
+
+## Natural Language Processing
+	* A nice review on recurrent NN types: Fundamentals of Recurrent Neural Network (RNN) and Long Short-Term Memory (LSTM) Network, Sherstinsky, 2021 [v]
+	https://arxiv.org/abs/1808.03314
+	* GRU: Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation, Cho et al., 2014 []
+	https://arxiv.org/abs/1406.1078
+	* LSTM: Long Short-Term Memory, Hochreiter, 1997	https://direct.mit.edu/neco/article-abstract/9/8/1735/6109/Long-Short-Term-Memory?redirectedFrom=fulltext
+	* Performance evaluation: Empirical evaluation of gated recurrent neural networks on sequence modeling, Chung et al., 2014	https://nyuscholars.nyu.edu/en/publications/empirical-evaluation-of-gated-recurrent-neural-networks-on-sequen
+	* Word distances and relations: Linguistic Regularities in Continuous Space Word Representations, Mikolov et al., 2013
+	https://aclanthology.org/N13-1090/ []
+	* Word2Vec: Efficient Estimation of Word Representations in Vector Space, Mikolov et al., 2013
+	Efficient Estimation of Word Representations in Vector Space []
+	https://arxiv.org/abs/1301.3781
+	*GloVe: Glove: Global Vectors for Word Representation, Pennington et al., 2014	https://www.researchgate.net/publication/284576917_Glove_Global_Vectors_for_Word_Representation
+	* Beam search: Beam Search Strategies for Neural Machine Translation, Freitag & Al-Onaizan, 2017 []
+	https://arxiv.org/abs/1702.01806
+
+## NN Architectures
+	* A good comparison on deep autoencoders: Empirical comparison between autoencoders and traditional dimensionality reduction methods, Fournier & Aloise, 2019 [v]
+	https://arxiv.org/abs/2103.04874
+	* U-Net original: U-Net: Convolutional Networks for Biomedical Image Segmentation, Ronneberger et al., 2015 [v]
+	https://arxiv.org/abs/1505.04597
+	* Siamese networks: Siamese Neural Networks for One-Shot Image Recognition, Koch, 2015 [v]
+	https://www.semanticscholar.org/paper/Siamese-Neural-Networks-for-One-Shot-Image-Koch/f216444d4f2959b4520c61d20003fa30a199670a
+	* Anomaly / novelty detection - like 1-class SVM: Anomaly Detection using One-Class Neural Networks, Chalapathy, 2015 []
+	https://arxiv.org/abs/1802.06360
+	* Image captioning: Show and Tell: A Neural Image Caption Generator, Vinyals et al., 2015 []
+	https://arxiv.org/abs/1411.4555
+	* R-CNN + captioning: Deep Visual-Semantic Alignments for Generating Image Descriptions, Karpathy & Li, 2015 []
+	https://cs.stanford.edu/people/karpathy/cvpr2015.pdf
+
+## Generative Models
+	* PixelRNN: Pixel Recurrent Neural Networks, van der Oord et al., 2016 [v]
+	https://arxiv.org/abs/1601.06759
+	* Image colorization: Colorful Image Colorization, Zhang et al., 2016 []
+	https://arxiv.org/abs/1603.08511
+	* SRGAN: Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network, Ledig et al., 2017 []
+	https://arxiv.org/abs/1609.04802
+	* Original style transfer paper: Image Style Transfer Using Convolutional Neural Networks, Gatys et al., 2016 []
+	https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Gatys_Image_Style_Transfer_CVPR_2016_paper.html
+	* Adversarial examples / training: Explaining and Harnessing Adversarial Examples, Goodfellow et al., 2014 []
+	https://arxiv.org/abs/1412.6572
+	* GANs: Generative Adversarial Networks, Goodfellow et al., 2014 []
+	https://arxiv.org/abs/1406.2661
+	
+## Reinforcement Learning
+	* Atari games with deep-Q learning: Playing Atari with Deep Reinforcement Learning, Mnih et al., 2013 [v]
+	https://arxiv.org/abs/1312.5602
+	* Atari games, cont'd: Human-level control through deep reinforcement
+	learning, Mnih et al., 2015 []
+	http://files.davidqiu.com/research/nature14236.pdf
+	* AlphaGo and successors: Mastering the game of Go with deep neural networks and tree search, Silver et al., 2016
+	https://www.nature.com/articles/nature16961
+	
